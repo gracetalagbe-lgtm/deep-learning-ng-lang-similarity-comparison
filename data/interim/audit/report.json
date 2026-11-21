@@ -1,0 +1,836 @@
+{
+  "generated_for": "afripara P2",
+  "datasets": {
+    "afrixnli/hau/dev": {
+      "name": "afrixnli/hau/dev",
+      "n_records": 450,
+      "anomalies": {},
+      "replacement_chars": 0,
+      "empty_sentences": 0,
+      "duplicate_pairs": 0,
+      "duplicate_sentence1": 300,
+      "duplicate_sentence2": 0,
+      "cross_side_duplicate_sentences": 1,
+      "label_distribution": {
+        "1": 150,
+        "2": 150,
+        "0": 150
+      },
+      "char_lengths": {
+        "n": 900,
+        "min": 11,
+        "p50": 69,
+        "p95": 159,
+        "max": 257,
+        "mean": 79.38
+      },
+      "token_lengths": {
+        "n": 900,
+        "min": 2,
+        "p50": 13,
+        "p95": 30,
+        "max": 46,
+        "mean": 14.76
+      },
+      "over_128_chars": 124,
+      "over_64_words": 0,
+      "diacritic_density_mean": 0.0113,
+      "marker_coverage": 0.4844,
+      "expected_language": "hau",
+      "flags": []
+    },
+    "afrixnli/hau/test": {
+      "name": "afrixnli/hau/test",
+      "n_records": 600,
+      "anomalies": {},
+      "replacement_chars": 0,
+      "empty_sentences": 0,
+      "duplicate_pairs": 0,
+      "duplicate_sentence1": 400,
+      "duplicate_sentence2": 0,
+      "cross_side_duplicate_sentences": 0,
+      "label_distribution": {
+        "2": 200,
+        "0": 200,
+        "1": 200
+      },
+      "char_lengths": {
+        "n": 1200,
+        "min": 14,
+        "p50": 65,
+        "p95": 185,
+        "max": 240,
+        "mean": 77.79
+      },
+      "token_lengths": {
+        "n": 1200,
+        "min": 3,
+        "p50": 12,
+        "p95": 33,
+        "max": 41,
+        "mean": 14.48
+      },
+      "over_128_chars": 146,
+      "over_64_words": 0,
+      "diacritic_density_mean": 0.012,
+      "marker_coverage": 0.4925,
+      "expected_language": "hau",
+      "flags": []
+    },
+    "afrixnli/ibo/dev": {
+      "name": "afrixnli/ibo/dev",
+      "n_records": 445,
+      "anomalies": {
+        "line 59: 2 tab-separated fields (expected 3)": 1,
+        "line 60: 2 tab-separated fields (expected 3)": 1,
+        "line 63: 2 tab-separated fields (expected 3)": 1,
+        "line 64: 2 tab-separated fields (expected 3)": 1,
+        "line 187: 2 tab-separated fields (expected 3)": 1,
+        "line 188: 2 tab-separated fields (expected 3)": 1,
+        "line 371: 2 tab-separated fields (expected 3)": 1,
+        "line 372: 2 tab-separated fields (expected 3)": 1,
+        "line 419: 2 tab-separated fields (expected 3)": 1,
+        "line 420: 2 tab-separated fields (expected 3)": 1
+      },
+      "replacement_chars": 0,
+      "empty_sentences": 0,
+      "duplicate_pairs": 0,
+      "duplicate_sentence1": 295,
+      "duplicate_sentence2": 0,
+      "cross_side_duplicate_sentences": 0,
+      "label_distribution": {
+        "1": 148,
+        "2": 149,
+        "0": 148
+      },
+      "char_lengths": {
+        "n": 890,
+        "min": 14,
+        "p50": 68,
+        "p95": 163,
+        "max": 266,
+        "mean": 80.17
+      },
+      "token_lengths": {
+        "n": 890,
+        "min": 3,
+        "p50": 13,
+        "p95": 34,
+        "max": 47,
+        "mean": 15.59
+      },
+      "over_128_chars": 140,
+      "over_64_words": 0,
+      "diacritic_density_mean": 0.1485,
+      "marker_coverage": 0.991,
+      "expected_language": "ibo",
+      "flags": []
+    },
+    "afrixnli/ibo/test": {
+      "name": "afrixnli/ibo/test",
+      "n_records": 600,
+      "anomalies": {},
+      "replacement_chars": 0,
+      "empty_sentences": 0,
+      "duplicate_pairs": 0,
+      "duplicate_sentence1": 400,
+      "duplicate_sentence2": 0,
+      "cross_side_duplicate_sentences": 0,
+      "label_distribution": {
+        "2": 200,
+        "0": 200,
+        "1": 200
+      },
+      "char_lengths": {
+        "n": 1200,
+        "min": 14,
+        "p50": 65,
+        "p95": 172,
+        "max": 216,
+        "mean": 76.55
+      },
+      "token_lengths": {
+        "n": 1200,
+        "min": 3,
+        "p50": 12,
+        "p95": 31,
+        "max": 38,
+        "mean": 14.7
+      },
+      "over_128_chars": 150,
+      "over_64_words": 0,
+      "diacritic_density_mean": 0.1466,
+      "marker_coverage": 0.9867,
+      "expected_language": "ibo",
+      "flags": []
+    },
+    "afrixnli/yor/dev": {
+      "name": "afrixnli/yor/dev",
+      "n_records": 450,
+      "anomalies": {},
+      "replacement_chars": 0,
+      "empty_sentences": 0,
+      "duplicate_pairs": 0,
+      "duplicate_sentence1": 300,
+      "duplicate_sentence2": 0,
+      "cross_side_duplicate_sentences": 0,
+      "label_distribution": {
+        "1": 150,
+        "2": 150,
+        "0": 150
+      },
+      "char_lengths": {
+        "n": 900,
+        "min": 11,
+        "p50": 65,
+        "p95": 162,
+        "max": 315,
+        "mean": 76.54
+      },
+      "token_lengths": {
+        "n": 900,
+        "min": 3,
+        "p50": 13,
+        "p95": 35,
+        "max": 60,
+        "mean": 16.25
+      },
+      "over_128_chars": 115,
+      "over_64_words": 0,
+      "diacritic_density_mean": 0.3991,
+      "marker_coverage": 0.9978,
+      "expected_language": "yor",
+      "flags": []
+    },
+    "afrixnli/yor/test": {
+      "name": "afrixnli/yor/test",
+      "n_records": 600,
+      "anomalies": {},
+      "replacement_chars": 0,
+      "empty_sentences": 0,
+      "duplicate_pairs": 0,
+      "duplicate_sentence1": 400,
+      "duplicate_sentence2": 0,
+      "cross_side_duplicate_sentences": 0,
+      "label_distribution": {
+        "2": 200,
+        "0": 200,
+        "1": 200
+      },
+      "char_lengths": {
+        "n": 1200,
+        "min": 12,
+        "p50": 64,
+        "p95": 166,
+        "max": 234,
+        "mean": 73.46
+      },
+      "token_lengths": {
+        "n": 1200,
+        "min": 3,
+        "p50": 13,
+        "p95": 34,
+        "max": 48,
+        "mean": 15.53
+      },
+      "over_128_chars": 116,
+      "over_64_words": 0,
+      "diacritic_density_mean": 0.4018,
+      "marker_coverage": 0.9992,
+      "expected_language": "yor",
+      "flags": []
+    },
+    "afrixnli/eng/dev": {
+      "name": "afrixnli/eng/dev",
+      "n_records": 450,
+      "anomalies": {},
+      "replacement_chars": 0,
+      "empty_sentences": 0,
+      "duplicate_pairs": 0,
+      "duplicate_sentence1": 300,
+      "duplicate_sentence2": 0,
+      "cross_side_duplicate_sentences": 0,
+      "label_distribution": {
+        "1": 150,
+        "2": 150,
+        "0": 150
+      },
+      "char_lengths": {
+        "n": 900,
+        "min": 15,
+        "p50": 67,
+        "p95": 166,
+        "max": 243,
+        "mean": 79.78
+      },
+      "token_lengths": {
+        "n": 900,
+        "min": 3,
+        "p50": 12,
+        "p95": 30,
+        "max": 35,
+        "mean": 14.05
+      },
+      "over_128_chars": 147,
+      "over_64_words": 0,
+      "diacritic_density_mean": 0.0,
+      "flags": []
+    },
+    "afrixnli/eng/test": {
+      "name": "afrixnli/eng/test",
+      "n_records": 600,
+      "anomalies": {},
+      "replacement_chars": 0,
+      "empty_sentences": 0,
+      "duplicate_pairs": 0,
+      "duplicate_sentence1": 400,
+      "duplicate_sentence2": 0,
+      "cross_side_duplicate_sentences": 0,
+      "label_distribution": {
+        "2": 200,
+        "0": 200,
+        "1": 200
+      },
+      "char_lengths": {
+        "n": 1200,
+        "min": 16,
+        "p50": 63,
+        "p95": 172,
+        "max": 224,
+        "mean": 75.58
+      },
+      "token_lengths": {
+        "n": 1200,
+        "min": 3,
+        "p50": 11,
+        "p95": 27,
+        "max": 34,
+        "mean": 13.15
+      },
+      "over_128_chars": 152,
+      "over_64_words": 0,
+      "diacritic_density_mean": 0.0,
+      "flags": []
+    },
+    "semrel2024_hau/train": {
+      "name": "semrel2024_hau/train",
+      "n_records": 1736,
+      "anomalies": {},
+      "replacement_chars": 0,
+      "empty_sentences": 0,
+      "duplicate_pairs": 0,
+      "duplicate_sentence1": 404,
+      "duplicate_sentence2": 414,
+      "cross_side_duplicate_sentences": 396,
+      "score_stats": {
+        "n": 1736,
+        "min": 0,
+        "p50": 50,
+        "p95": 100,
+        "max": 100,
+        "mean": 49.51
+      },
+      "score_histogram": {
+        "0.0": 95,
+        "0.1": 98,
+        "0.2": 204,
+        "0.3": 136,
+        "0.4": 197,
+        "0.5": 298,
+        "0.6": 210,
+        "0.7": 118,
+        "0.8": 183,
+        "0.9": 99,
+        "1.0": 98
+      },
+      "char_lengths": {
+        "n": 3472,
+        "min": 10,
+        "p50": 108,
+        "p95": 143,
+        "max": 169,
+        "mean": 105.94
+      },
+      "token_lengths": {
+        "n": 3472,
+        "min": 2,
+        "p50": 20,
+        "p95": 25,
+        "max": 26,
+        "mean": 19.62
+      },
+      "over_128_chars": 618,
+      "over_64_words": 0,
+      "diacritic_density_mean": 0.012,
+      "marker_coverage": 0.479,
+      "expected_language": "hau",
+      "flags": []
+    },
+    "semrel2024_hau/dev": {
+      "name": "semrel2024_hau/dev",
+      "n_records": 212,
+      "anomalies": {},
+      "replacement_chars": 0,
+      "empty_sentences": 0,
+      "duplicate_pairs": 0,
+      "duplicate_sentence1": 7,
+      "duplicate_sentence2": 8,
+      "cross_side_duplicate_sentences": 9,
+      "score_stats": {
+        "n": 212,
+        "min": 0,
+        "p50": 50,
+        "p95": 100,
+        "max": 100,
+        "mean": 49.42
+      },
+      "score_histogram": {
+        "0.0": 13,
+        "0.1": 10,
+        "0.2": 25,
+        "0.3": 16,
+        "0.4": 24,
+        "0.5": 40,
+        "0.6": 25,
+        "0.7": 13,
+        "0.8": 22,
+        "0.9": 11,
+        "1.0": 13
+      },
+      "char_lengths": {
+        "n": 424,
+        "min": 36,
+        "p50": 109,
+        "p95": 145,
+        "max": 165,
+        "mean": 105.83
+      },
+      "token_lengths": {
+        "n": 424,
+        "min": 7,
+        "p50": 20,
+        "p95": 25,
+        "max": 26,
+        "mean": 19.49
+      },
+      "over_128_chars": 87,
+      "over_64_words": 0,
+      "diacritic_density_mean": 0.0133,
+      "marker_coverage": 0.5142,
+      "expected_language": "hau",
+      "flags": []
+    },
+    "semrel2024_hau/test": {
+      "name": "semrel2024_hau/test",
+      "n_records": 603,
+      "anomalies": {},
+      "replacement_chars": 0,
+      "empty_sentences": 0,
+      "duplicate_pairs": 0,
+      "duplicate_sentence1": 60,
+      "duplicate_sentence2": 57,
+      "cross_side_duplicate_sentences": 57,
+      "score_stats": {
+        "n": 603,
+        "min": 0,
+        "p50": 50,
+        "p95": 96,
+        "max": 100,
+        "mean": 49.58
+      },
+      "score_histogram": {
+        "0.0": 29,
+        "0.1": 41,
+        "0.2": 69,
+        "0.3": 51,
+        "0.4": 66,
+        "0.5": 94,
+        "0.6": 75,
+        "0.7": 44,
+        "0.8": 64,
+        "0.9": 39,
+        "1.0": 31
+      },
+      "char_lengths": {
+        "n": 1206,
+        "min": 27,
+        "p50": 109,
+        "p95": 144,
+        "max": 169,
+        "mean": 107.56
+      },
+      "token_lengths": {
+        "n": 1206,
+        "min": 6,
+        "p50": 21,
+        "p95": 25,
+        "max": 26,
+        "mean": 19.88
+      },
+      "over_128_chars": 259,
+      "over_64_words": 0,
+      "diacritic_density_mean": 0.012,
+      "marker_coverage": 0.4685,
+      "expected_language": "hau",
+      "flags": []
+    },
+    "menyo20k_mt/train": {
+      "name": "menyo20k_mt/train",
+      "n_records": 10070,
+      "anomalies": {},
+      "replacement_chars": 0,
+      "empty_sentences": 0,
+      "duplicate_pairs": 77,
+      "duplicate_sentence1": 141,
+      "duplicate_sentence2": 92,
+      "cross_side_duplicate_sentences": 13,
+      "char_lengths": {
+        "n": 20140,
+        "min": 4,
+        "p50": 84,
+        "p95": 235,
+        "max": 1182,
+        "mean": 101.13
+      },
+      "token_lengths": {
+        "n": 20140,
+        "min": 2,
+        "p50": 16,
+        "p95": 42,
+        "max": 219,
+        "mean": 18.54
+      },
+      "over_128_chars": 5814,
+      "over_64_words": 144,
+      "diacritic_density_mean": 0.2038,
+      "marker_coverage": 0.5056,
+      "expected_language": "yor",
+      "flags": [
+        "77 duplicate pairs"
+      ]
+    },
+    "menyo20k_mt/dev": {
+      "name": "menyo20k_mt/dev",
+      "n_records": 3396,
+      "anomalies": {
+        "line 700: 3 tab-separated fields (expected 2)": 1
+      },
+      "replacement_chars": 0,
+      "empty_sentences": 0,
+      "duplicate_pairs": 45,
+      "duplicate_sentence1": 56,
+      "duplicate_sentence2": 46,
+      "cross_side_duplicate_sentences": 15,
+      "char_lengths": {
+        "n": 6792,
+        "min": 7,
+        "p50": 88,
+        "p95": 227,
+        "max": 726,
+        "mean": 102.57
+      },
+      "token_lengths": {
+        "n": 6792,
+        "min": 2,
+        "p50": 16,
+        "p95": 42,
+        "max": 134,
+        "mean": 19.01
+      },
+      "over_128_chars": 1989,
+      "over_64_words": 38,
+      "diacritic_density_mean": 0.2094,
+      "marker_coverage": 0.4994,
+      "expected_language": "yor",
+      "flags": [
+        "45 duplicate pairs"
+      ]
+    },
+    "menyo20k_mt/test": {
+      "name": "menyo20k_mt/test",
+      "n_records": 6633,
+      "anomalies": {},
+      "replacement_chars": 0,
+      "empty_sentences": 0,
+      "duplicate_pairs": 45,
+      "duplicate_sentence1": 64,
+      "duplicate_sentence2": 46,
+      "cross_side_duplicate_sentences": 2,
+      "char_lengths": {
+        "n": 13266,
+        "min": 7,
+        "p50": 101,
+        "p95": 250,
+        "max": 583,
+        "mean": 115.02
+      },
+      "token_lengths": {
+        "n": 13266,
+        "min": 2,
+        "p50": 18,
+        "p95": 45,
+        "max": 104,
+        "mean": 20.71
+      },
+      "over_128_chars": 4770,
+      "over_64_words": 89,
+      "diacritic_density_mean": 0.2059,
+      "marker_coverage": 0.5041,
+      "expected_language": "yor",
+      "flags": [
+        "45 duplicate pairs"
+      ]
+    },
+    "igbonlp_benchmark/train": {
+      "name": "igbonlp_benchmark/train",
+      "n_records": 10000,
+      "anomalies": {},
+      "replacement_chars": 0,
+      "empty_sentences": 1,
+      "duplicate_pairs": 249,
+      "duplicate_sentence1": 502,
+      "duplicate_sentence2": 602,
+      "cross_side_duplicate_sentences": 120,
+      "char_lengths": {
+        "n": 20000,
+        "min": 0,
+        "p50": 89,
+        "p95": 228,
+        "max": 658,
+        "mean": 101.18
+      },
+      "token_lengths": {
+        "n": 20000,
+        "min": 0,
+        "p50": 16,
+        "p95": 40,
+        "max": 115,
+        "mean": 18.05
+      },
+      "over_128_chars": 5692,
+      "over_64_words": 81,
+      "diacritic_density_mean": 0.0614,
+      "marker_coverage": 0.4719,
+      "expected_language": "ibo",
+      "flags": [
+        "1 empty sentences",
+        "249 duplicate pairs"
+      ]
+    },
+    "igbonlp_benchmark/val": {
+      "name": "igbonlp_benchmark/val",
+      "n_records": 193,
+      "anomalies": {},
+      "replacement_chars": 0,
+      "empty_sentences": 0,
+      "duplicate_pairs": 4,
+      "duplicate_sentence1": 4,
+      "duplicate_sentence2": 4,
+      "cross_side_duplicate_sentences": 2,
+      "char_lengths": {
+        "n": 386,
+        "min": 2,
+        "p50": 129,
+        "p95": 230,
+        "max": 427,
+        "mean": 133.5
+      },
+      "token_lengths": {
+        "n": 386,
+        "min": 1,
+        "p50": 22,
+        "p95": 41,
+        "max": 64,
+        "mean": 22.88
+      },
+      "over_128_chars": 195,
+      "over_64_words": 0,
+      "diacritic_density_mean": 0.0624,
+      "marker_coverage": 0.4845,
+      "expected_language": "ibo",
+      "flags": [
+        "4 duplicate pairs"
+      ]
+    },
+    "igbonlp_benchmark/test": {
+      "name": "igbonlp_benchmark/test",
+      "n_records": 597,
+      "anomalies": {},
+      "replacement_chars": 0,
+      "empty_sentences": 10,
+      "duplicate_pairs": 200,
+      "duplicate_sentence1": 200,
+      "duplicate_sentence2": 205,
+      "cross_side_duplicate_sentences": 3,
+      "char_lengths": {
+        "n": 1194,
+        "min": 0,
+        "p50": 150,
+        "p95": 595,
+        "max": 6968,
+        "mean": 222.98
+      },
+      "token_lengths": {
+        "n": 1194,
+        "min": 0,
+        "p50": 27,
+        "p95": 108,
+        "max": 1132,
+        "mean": 38.85
+      },
+      "over_128_chars": 727,
+      "over_64_words": 182,
+      "diacritic_density_mean": 0.0639,
+      "marker_coverage": 0.4858,
+      "expected_language": "ibo",
+      "flags": [
+        "10 empty sentences",
+        "200 duplicate pairs"
+      ]
+    },
+    "ntrex_african/hau": {
+      "name": "ntrex_african/hau",
+      "n_records": 1997,
+      "anomalies": {},
+      "replacement_chars": 0,
+      "empty_sentences": 0,
+      "duplicate_pairs": 0,
+      "duplicate_sentence1": 0,
+      "duplicate_sentence2": 0,
+      "cross_side_duplicate_sentences": 2,
+      "char_lengths": {
+        "n": 3994,
+        "min": 7,
+        "p50": 122,
+        "p95": 254,
+        "max": 483,
+        "mean": 130.36
+      },
+      "token_lengths": {
+        "n": 3994,
+        "min": 1,
+        "p50": 21,
+        "p95": 45,
+        "max": 82,
+        "mean": 23.06
+      },
+      "over_128_chars": 1861,
+      "over_64_words": 15,
+      "diacritic_density_mean": 0.0045,
+      "marker_coverage": 0.4141,
+      "expected_language": "hau",
+      "flags": []
+    },
+    "ntrex_african/ibo": {
+      "name": "ntrex_african/ibo",
+      "n_records": 1997,
+      "anomalies": {},
+      "replacement_chars": 0,
+      "empty_sentences": 0,
+      "duplicate_pairs": 0,
+      "duplicate_sentence1": 0,
+      "duplicate_sentence2": 0,
+      "cross_side_duplicate_sentences": 2,
+      "char_lengths": {
+        "n": 3994,
+        "min": 6,
+        "p50": 117,
+        "p95": 242,
+        "max": 469,
+        "mean": 124.16
+      },
+      "token_lengths": {
+        "n": 3994,
+        "min": 1,
+        "p50": 21,
+        "p95": 43,
+        "max": 84,
+        "mean": 21.97
+      },
+      "over_128_chars": 1729,
+      "over_64_words": 3,
+      "diacritic_density_mean": 0.0576,
+      "marker_coverage": 0.4937,
+      "expected_language": "ibo",
+      "flags": []
+    },
+    "ntrex_african/yor": {
+      "name": "ntrex_african/yor",
+      "n_records": 1997,
+      "anomalies": {},
+      "replacement_chars": 0,
+      "empty_sentences": 0,
+      "duplicate_pairs": 0,
+      "duplicate_sentence1": 1,
+      "duplicate_sentence2": 0,
+      "cross_side_duplicate_sentences": 0,
+      "char_lengths": {
+        "n": 3994,
+        "min": 6,
+        "p50": 121,
+        "p95": 258,
+        "max": 447,
+        "mean": 130.54
+      },
+      "token_lengths": {
+        "n": 3994,
+        "min": 1,
+        "p50": 22,
+        "p95": 46,
+        "max": 77,
+        "mean": 23.44
+      },
+      "over_128_chars": 1822,
+      "over_64_words": 22,
+      "diacritic_density_mean": 0.1636,
+      "marker_coverage": 0.4965,
+      "expected_language": "yor",
+      "flags": []
+    }
+  },
+  "files_with_bom": [],
+  "cross_split_overlap": {
+    "afrixnli/hau": {
+      "dev_sentences": 599,
+      "test_sentences": 800,
+      "shared": 0
+    },
+    "afrixnli/ibo": {
+      "dev_sentences": 595,
+      "test_sentences": 800,
+      "shared": 0
+    },
+    "afrixnli/yor": {
+      "dev_sentences": 600,
+      "test_sentences": 800,
+      "shared": 0
+    },
+    "afrixnli/eng": {
+      "dev_sentences": 600,
+      "test_sentences": 800,
+      "shared": 0
+    },
+    "semrel2024_hau": {
+      "sizes": {
+        "train": 2258,
+        "dev": 400,
+        "test": 1032
+      },
+      "shared_train_dev": 244,
+      "shared_train_test": 644,
+      "shared_dev_test": 101
+    },
+    "menyo20k_mt": {
+      "shared_eng_train_test": 3,
+      "shared_yor_train_test": 2,
+      "shared_eng_train_dev": 18,
+      "shared_yor_train_dev": 4
+    },
+    "igbonlp_benchmark": {
+      "shared_eng_train_val": 8,
+      "shared_eng_train_test": 1,
+      "shared_ibo_train_val": 6,
+      "shared_ibo_train_test": 0
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "model": "castorini/afriberta_small",
+  "max_seq_length_cfg": 128,
+  "summary": {
+    "afrixnli/yor/test": {
+      "pairs": 50,
+      "pair_token_lengths": {
+        "min": 25,
+        "p50": 56,
+        "mean": 54.6,
+        "max": 88
+      },
+      "hit_cfg_limit": 0,
+      "forward_pass_finite": true,
+      "seconds": 8.78
+    },
+    "afrixnli/ibo/test": {
+      "pairs": 50,
+      "pair_token_lengths": {
+        "min": 25,
+        "p50": 50,
+        "mean": 49.5,
+        "max": 79
+      },
+      "hit_cfg_limit": 0,
+      "forward_pass_finite": true,
+      "seconds": 9.57
+    },
+    "afrixnli/hau/test": {
+      "pairs": 50,
+      "pair_token_lengths": {
+        "min": 19,
+        "p50": 36,
+        "mean": 36.2,
+        "max": 53
+      },
+      "hit_cfg_limit": 0,
+      "forward_pass_finite": true,
+      "seconds": 3.7
+    },
+    "semrel2024_hau/dev": {
+      "pairs": 50,
+      "pair_token_lengths": {
+        "min": 36,
+        "p50": 55,
+        "mean": 55.1,
+        "max": 95
+      },
+      "hit_cfg_limit": 0,
+      "forward_pass_finite": true,
+      "seconds": 7.33
+    }
+  }
+}

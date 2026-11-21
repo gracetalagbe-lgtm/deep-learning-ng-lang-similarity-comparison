@@ -2,8 +2,8 @@
 __pycache__/
 *.py[cod]
 *.egg-info/
-build/
-dist/
+#build/
+#dist/
 .pytest_cache/
 .venv/
 
@@ -12,14 +12,14 @@ dist/
 .claude/
 
 # --- Data: raw downloads are large and immutable; keep only placeholders ---
-data/raw/*
-!data/raw/.gitkeep
-data/external/*
-!data/external/.gitkeep
-data/interim/*
-!data/interim/.gitkeep
-data/processed/*
-!data/processed/.gitkeep
+#data/raw/*
+#!data/raw/.gitkeep
+#data/external/*
+#!data/external/.gitkeep
+#data/interim/*
+#!data/interim/.gitkeep
+#data/processed/*
+#!data/processed/.gitkeep
 
 # --- Experiment artefacts ---
 checkpoints/
