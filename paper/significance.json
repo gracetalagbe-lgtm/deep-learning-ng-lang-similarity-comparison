@@ -1,0 +1,198 @@
+{
+  "vs_baseline": [
+    {
+      "family": "afroxlmr_hau_semrel",
+      "set": "semrel_disjoint_test",
+      "n_seeds": 3,
+      "acc_model_mean": 0.783,
+      "acc_base": 0.651,
+      "delta_pts": 13.2,
+      "b": 55,
+      "c": 17,
+      "p_min": 8.14003082672391e-06,
+      "per_seed_p": [
+        0.00013083876154198454,
+        0.00024439701657757496,
+        8.14003082672391e-06
+      ]
+    },
+    {
+      "family": "afroxlmr_hau_semrel",
+      "set": "semrel_official_test",
+      "n_seeds": 3,
+      "acc_model_mean": 0.8452,
+      "acc_base": 0.6269,
+      "delta_pts": 21.8,
+      "b": 166,
+      "c": 32,
+      "p_min": 5.14050212845931e-23,
+      "per_seed_p": [
+        5.14050212845931e-23,
+        5.061057999542149e-19,
+        1.9413119343205563e-22
+      ]
+    },
+    {
+      "family": "afriberta_hau_semrel",
+      "set": "semrel_disjoint_test",
+      "n_seeds": 3,
+      "acc_model_mean": 0.668,
+      "acc_base": 0.651,
+      "delta_pts": 1.7,
+      "b": 50,
+      "c": 38,
+      "p_min": 0.2407931245390016,
+      "per_seed_p": [
+        0.2407931245390016,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "family": "afriberta_hau_semrel",
+      "set": "semrel_official_test",
+      "n_seeds": 3,
+      "acc_model_mean": 0.733,
+      "acc_base": 0.6269,
+      "delta_pts": 10.6,
+      "b": 139,
+      "c": 56,
+      "p_min": 2.4906019125079708e-09,
+      "per_seed_p": [
+        2.4906019125079708e-09,
+        0.0008202604148752635,
+        3.8816126461272605e-09
+      ]
+    },
+    {
+      "family": "afroxlmr_hau_constructed",
+      "set": "semrel_disjoint_test",
+      "n_seeds": 3,
+      "acc_model_mean": 0.6405,
+      "acc_base": 0.651,
+      "delta_pts": -1.0,
+      "b": 37,
+      "c": 43,
+      "p_min": 0.5764306261883931,
+      "per_seed_p": [
+        1.0,
+        0.5764306261883931,
+        0.8974218269914307
+      ]
+    },
+    {
+      "family": "afroxlmr_hau_constructed",
+      "set": "semrel_official_test",
+      "n_seeds": 3,
+      "acc_model_mean": 0.5483,
+      "acc_base": 0.6269,
+      "delta_pts": -7.9,
+      "b": 24,
+      "c": 69,
+      "p_min": 3.3028941070359494e-06,
+      "per_seed_p": [
+        3.3028941070359494e-06,
+        8.233374857241987e-06,
+        1.602858614557554e-05
+      ]
+    },
+    {
+      "family": "afroxlmr_yor_constructed",
+      "set": "constructed_test_yor",
+      "n_seeds": 3,
+      "acc_model_mean": 0.5622,
+      "acc_base": 0.5192,
+      "delta_pts": 4.3,
+      "b": 52,
+      "c": 34,
+      "p_min": 0.06615259746138927,
+      "per_seed_p": [
+        0.48868297090314317,
+        0.2407931245390016,
+        0.06615259746138927
+      ]
+    },
+    {
+      "family": "afroxlmr_ibo_constructed",
+      "set": "constructed_test_ibo",
+      "n_seeds": 3,
+      "acc_model_mean": 0.6757,
+      "acc_base": 0.5627,
+      "delta_pts": 11.3,
+      "b": 76,
+      "c": 32,
+      "p_min": 2.7607869966245203e-05,
+      "per_seed_p": [
+        0.00203114037416273,
+        2.7607869966245203e-05,
+        0.0041651140158244435
+      ]
+    },
+    {
+      "family": "afroxlmr_hau_constructed",
+      "set": "constructed_test_hau",
+      "n_seeds": 3,
+      "acc_model_mean": 0.6261,
+      "acc_base": 0.5473,
+      "delta_pts": 7.9,
+      "b": 28,
+      "c": 6,
+      "p_min": 0.00019512558355927467,
+      "per_seed_p": [
+        0.21003961563110352,
+        0.00019512558355927467,
+        0.26317596435546875
+      ]
+    }
+  ],
+  "transfer_vs_silver": [
+    {
+      "transfer_run": "afroxlmr_en_paws_seed42",
+      "vs_family": "afroxlmr_hau_constructed",
+      "set": "constructed_test_hau",
+      "acc_transfer": 0.8108,
+      "acc_family_mean": 0.6261,
+      "delta_pts": 18.5,
+      "b": 38,
+      "c": 5,
+      "p_min": 2.4995097192004323e-07,
+      "per_seed_p": [
+        1.831543272601266e-06,
+        0.004551384132355452,
+        2.4995097192004323e-07
+      ]
+    },
+    {
+      "transfer_run": "afroxlmr_en_paws_seed42",
+      "vs_family": "afroxlmr_ibo_constructed",
+      "set": "constructed_test_ibo",
+      "acc_transfer": 0.6746,
+      "acc_family_mean": 0.6757,
+      "delta_pts": -0.1,
+      "b": 27,
+      "c": 38,
+      "p_min": 0.2145391940081784,
+      "per_seed_p": [
+        0.5758493477318467,
+        0.2145391940081784,
+        0.5900533317766354
+      ]
+    },
+    {
+      "transfer_run": "afroxlmr_en_paws_seed42",
+      "vs_family": "afroxlmr_yor_constructed",
+      "set": "constructed_test_yor",
+      "acc_transfer": 0.5993,
+      "acc_family_mean": 0.5622,
+      "delta_pts": 3.7,
+      "b": 42,
+      "c": 26,
+      "p_min": 0.06811867428409976,
+      "per_seed_p": [
+        0.06811867428409976,
+        0.20736789985685422,
+        0.6304564917867981
+      ]
+    }
+  ]
+}

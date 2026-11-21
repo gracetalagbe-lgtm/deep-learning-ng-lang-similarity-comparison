@@ -1,0 +1,24 @@
+# Primary cross-encoder. Verified on Hugging Face Hub 2026-11-18:
+# Davlan/afro-xlmr-base (MIT) - XLM-R-base adapted to 17 African languages
+# (incl. yor, ibo, hau) + en/fr/ar via multilingual adaptive fine-tuning.
+model:
+  name: afroxlmr_base
+  hf_repo: Davlan/afro-xlmr-base
+  architecture: cross_encoder        # AutoModelForSequenceClassification
+  backbone: xlm_roberta_base
+  params_millions: 278
+  embedding_dim: null                # not an embedding model
+  license: MIT
+  languages_covered: [yor, ibo, hau, amh, swh, xho, zul, sna, sot, tsn, orm,
+                      lin, lug, kin, run, ewe, twi, pcm, eng, fra, ara]
+  tokenizer: sentencepiece_xlmr
+  max_seq_length: 128
+  citation: >
+    Alabi, Adelani, Mosbach & Klakow (2022), Adapting Pre-trained Language
+    Models to African Languages via Multilingual Adaptive Fine-Tuning,
+    COLING 2022. https://aclanthology.org/2022.coling-1.382/
+  role: primary_cross_encoder
+  notes: >
+    Same architecture family as the SemEval-2024 Task 1 winning system
+    (AAdaM, Spearman 0.800). Fine-tune target for experiments E1, E2, E4, E5.
+training_overrides: {}

@@ -1,0 +1,191 @@
+{
+  "hau": {
+    "run": "afroxlmr_hau_semrel_seed42",
+    "threshold": 0.37,
+    "temperature": 1.6605,
+    "cases": [
+      {
+        "kind": "true_positive",
+        "pair_id": "pair_6d4f94f463166e91",
+        "sentence1": "Gina Jami’oi masu zaman kansu zai sa dalibai samun guraben Karatu – Sarkin Kano, Aminu Bayero",
+        "sentence2": "Sarkin Bayero yace gina irin wadannan jami’oi masu zaman kansu a jihar Kano zai taimakawa dalibai su samu guraben karatu bayan kammala makarantun sakandire.",
+        "gold": 1,
+        "saved_score": 0.985412,
+        "calibrated_prob": 0.926745,
+        "raw_prob": 0.985427,
+        "threshold": 0.37,
+        "temperature": 1.6605,
+        "predicted_label": 1,
+        "gold_score_continuous": 0.88
+      },
+      {
+        "kind": "false_positive",
+        "pair_id": "pair_aaabcbbfc2101784",
+        "sentence1": "Waɗanda aka biya cikin Fabrairu ba su taka kara sun karya ba.” Inji Shugaban NLC na Zamfara.",
+        "sentence2": "Ta ce Saheed na yin korafin akan abin da bai taka kara ya karya ba.",
+        "gold": 0,
+        "saved_score": 0.974869,
+        "calibrated_prob": 0.900479,
+        "raw_prob": 0.974848,
+        "threshold": 0.37,
+        "temperature": 1.6605,
+        "predicted_label": 1,
+        "gold_score_continuous": 0.1
+      },
+      {
+        "kind": "false_negative",
+        "pair_id": "pair_f4aad4e118c80edb",
+        "sentence1": "A lokacin jawabin sa, Uba Sani ya jinjina wa  mutanen karamar hukumar Lere bisa goyon baya da suke bashi ba tun yanzu ba.",
+        "sentence2": "Amma kuma Kotun Ƙoli ta soke zaɓen sa, bisa hujjar cewa Gwamna Peter Obi na lokacin bai cika wa’adin sa a kan mulki ba.",
+        "gold": 1,
+        "saved_score": 0.037362,
+        "calibrated_prob": 0.123794,
+        "raw_prob": 0.037342,
+        "threshold": 0.37,
+        "temperature": 1.6605,
+        "predicted_label": 0,
+        "gold_score_continuous": 0.5
+      },
+      {
+        "kind": "true_negative",
+        "pair_id": "pair_642a5d1d5c02124d",
+        "sentence1": "Dike ya ce haramta yanka naman jakuna ba shi ne zai bunƙasa tattalin arzikin ƙasar nan ba.",
+        "sentence2": "“Maraɗi ba ta kai muhimmancin Kudu maso Gabas ga tattalin arzikin ƙasar nan ba.",
+        "gold": 0,
+        "saved_score": 0.044142,
+        "calibrated_prob": 0.135656,
+        "raw_prob": 0.04415,
+        "threshold": 0.37,
+        "temperature": 1.6605,
+        "predicted_label": 0,
+        "gold_score_continuous": 0.38
+      }
+    ]
+  },
+  "yor": {
+    "run": "afroxlmr_yor_constructed_seed42",
+    "threshold": 0.48,
+    "temperature": 3.4558,
+    "cases": [
+      {
+        "kind": "true_positive",
+        "pair_id": "paws_translated_18896",
+        "sentence1": "Àwọn èèyàn mọ ibi tí ogun Chausa ti wáyé , níbi tí àwọn ọmọ ogun Humayun ti ṣẹ́gun ẹgbẹ́ ọmọ ogun Sher Shah Suri , ọba Moghul ní ọdún 1539 .",
+        "sentence2": "Àwọn èèyàn mọ ibi tí ogun Chausa ti wáyé , níbi tí àwọn ọmọ ogun Humayun ṣẹ́gun ẹgbẹ́ ọmọ ogun Sher Shah Suri , ọba Mughal ní ọdún 1539 .",
+        "gold": 1,
+        "saved_score": 0.95561,
+        "calibrated_prob": 0.708539,
+        "raw_prob": 0.955629,
+        "threshold": 0.48,
+        "temperature": 3.4558,
+        "predicted_label": 1,
+        "gold_score_continuous": null
+      },
+      {
+        "kind": "false_positive",
+        "pair_id": "paws_translated_21919",
+        "sentence1": "Àwọn Kátólíìkì tó kọ́ láti di Kristẹni sá lọ sí Scotland .",
+        "sentence2": "Àwọn Kátólíìkì tó kọ́ láti di Kristẹni sá lọ sí Scotland .",
+        "gold": 0,
+        "saved_score": 0.951142,
+        "calibrated_prob": 0.702509,
+        "raw_prob": 0.951176,
+        "threshold": 0.48,
+        "temperature": 3.4558,
+        "predicted_label": 1,
+        "gold_score_continuous": null
+      },
+      {
+        "kind": "false_negative",
+        "pair_id": "paws_translated_20450",
+        "sentence1": "Àwọn ọmọ ogun náà gòkè lọ sí òkè Dana ní ọjọ́ kejì kí Muir tó padà sí Martinez .",
+        "sentence2": "Òkè Dana , tó wà ní òkè ńlá , ni àwùjọ náà gòkè lọ lọ́jọ́ kejì kí Muir tó padà sí ilé Martinez .",
+        "gold": 1,
+        "saved_score": 0.184327,
+        "calibrated_prob": 0.394137,
+        "raw_prob": 0.184548,
+        "threshold": 0.48,
+        "temperature": 3.4558,
+        "predicted_label": 0,
+        "gold_score_continuous": null
+      },
+      {
+        "kind": "true_negative",
+        "pair_id": "paws_translated_4953",
+        "sentence1": "Ó ń lọ sí àríwá ní òdìkejì ìlú Oblong , ó sì ń lọ sí Robinson .",
+        "sentence2": "Ó jìnnà sí ìlú Newton ní nǹkan bí kìlómítà méjì sí àríwá , ó sì ń lọ sí ìlà oòrùn , ó ń kọjá ní òṣùpá Oblong , ó sì ń lọ sí Robinson .",
+        "gold": 0,
+        "saved_score": 0.157979,
+        "calibrated_prob": 0.381195,
+        "raw_prob": 0.157856,
+        "threshold": 0.48,
+        "temperature": 3.4558,
+        "predicted_label": 0,
+        "gold_score_continuous": null
+      }
+    ]
+  },
+  "ibo": {
+    "run": "afroxlmr_ibo_constructed_seed42",
+    "threshold": 0.3,
+    "temperature": 1.2963,
+    "cases": [
+      {
+        "kind": "true_positive",
+        "pair_id": "paws_translated_15169",
+        "sentence1": "Onye mepụtara usoro a bụ Marklen Kennedy ma Richard Grieco bụ onye so mepụta ya .",
+        "sentence2": "Onye mepụtara usoro a bụ Marklen Kennedy ma Richard Grieco so mepụta ya .",
+        "gold": 1,
+        "saved_score": 0.877161,
+        "calibrated_prob": 0.819929,
+        "raw_prob": 0.877075,
+        "threshold": 0.3,
+        "temperature": 1.2963,
+        "predicted_label": 1,
+        "gold_score_continuous": null
+      },
+      {
+        "kind": "false_positive",
+        "pair_id": "paws_translated_13782",
+        "sentence1": "O nwere akwụkwọ akụkọ `` Seventy Times Seven ' , ihe na-akpata ihe ike nke e bipụtara na 1992 , nke e mere na 2012 .",
+        "sentence2": "O bipụtara akwụkwọ akụkọ `` Seventy Times Seven ' , ihe na-akpata ihe ike , nke na-eme na 1992 , na 2012 .",
+        "gold": 0,
+        "saved_score": 0.866867,
+        "calibrated_prob": 0.809318,
+        "raw_prob": 0.866911,
+        "threshold": 0.3,
+        "temperature": 1.2963,
+        "predicted_label": 1,
+        "gold_score_continuous": null
+      },
+      {
+        "kind": "false_negative",
+        "pair_id": "paws_translated_38700",
+        "sentence1": "bụ a n' akụkụ nke Raumanga na Northland mpaghara na New Zealand .",
+        "sentence2": "Raumanga bụ obodo dịpụrụ adịpụ nke Raumanga na Northland Region nke New Zealand .",
+        "gold": 1,
+        "saved_score": 0.111434,
+        "calibrated_prob": 0.168064,
+        "raw_prob": 0.111718,
+        "threshold": 0.3,
+        "temperature": 1.2963,
+        "predicted_label": 0,
+        "gold_score_continuous": null
+      },
+      {
+        "kind": "true_negative",
+        "pair_id": "paws_translated_44750",
+        "sentence1": "Osimiri Lăpuş bụ akụkụ nke Osimiri Coruia na Romania .",
+        "sentence2": "Osimiri Coruia bụ akụkụ mmiri nke osimiri LÄ puÅ na Romania .",
+        "gold": 0,
+        "saved_score": 0.048047,
+        "calibrated_prob": 0.090772,
+        "raw_prob": 0.048017,
+        "threshold": 0.3,
+        "temperature": 1.2963,
+        "predicted_label": 0,
+        "gold_score_continuous": null
+      }
+    ]
+  }
+}

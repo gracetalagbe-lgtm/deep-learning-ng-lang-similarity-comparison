@@ -1,0 +1,24 @@
+# African-specific encoder baseline. Verified on HF Hub 2026-11-18.
+# NOTE: castorini/afriberta_base has NO license declared; we use the large
+# variant (MIT). Tokenizer requires model_max_length to be set explicitly.
+model:
+  name: afriberta_large
+  hf_repo: castorini/afriberta_large
+  architecture: cross_encoder        # loaded via XLMRobertaForSequenceClassification
+  backbone: afriberta_large          # 10 layers, 768 hidden
+  params_millions: 126
+  embedding_dim: null
+  license: MIT
+  languages_covered: [hau, ibo, yo, amh, om, rn, pcm, so, sw, ti]   # 11 African languages
+  tokenizer: sentencepiece_afriberta
+  max_seq_length: 128
+  citation: >
+    Ogueji, Zhu & Lin (2021), Small Data? No Problem! Exploring the
+    Viability of Pretrained Multilingual Language Models for Low-resourced
+    Languages, MRL @ EMNLP 2021. https://aclanthology.org/2021.mrl-1.11/
+  role: african_specific_baseline
+  notes: >
+    Pretraining corpus: BBC News + Common Crawl, < 1 GB (NOT JW300).
+    AfriBERTa trails AfroXLMR on MasakhaNER (76.8 vs 81.8 F1), which is the
+    contrast RQ2 needs. Set tokenizer.model_max_length = 512 after loading.
+training_overrides: {}

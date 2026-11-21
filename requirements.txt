@@ -1,0 +1,37 @@
+# Pinned for the LOCAL Intel Mac environment (2-core CPU, no GPU).
+#
+# Platform constraint (verified 2026-11-19): PyTorch stopped publishing
+# macOS x86_64 wheels after 2.2.2, so the local machine is pinned to
+# torch==2.2.2, which requires numpy<2 and transformers 4.x (transformers
+# v5 requires torch>=2.6 and would silently disable torch support).
+#
+# The Colab training notebooks (Phase 5) pin their own coherent set in the
+# notebook itself; results are comparable because the architectures and
+# tokenizers are identical, and the training configuration is shared via
+# configs/default.yaml.
+
+numpy==1.26.4
+torch==2.2.2
+transformers==4.49.0
+sentence-transformers==3.4.1
+accelerate==1.3.0
+datasets==3.2.0
+pyarrow==15.0.2  # newest pyarrow needs numpy>=2; numpy is pinned <2 for torch 2.2.2
+# AfriBERTa checkpoints ship only a slow SentencePiece tokenizer (no
+# tokenizer.json), so sentencepiece is required. Newer releases publish no
+# macOS x86_64 wheel - 0.1.99 is the newest with one.
+sentencepiece==0.1.99
+# protobuf pinned to 5.26.1 (2026-11-19): satisfies streamlit>=1.67
+# (needs >=5.26) AND verified compatible with the sentencepiece 0.1.99 slow
+# tokenizer used for AfriBERTa (tested: slow SP tokenizer encodes correctly
+# under protobuf 5.26.1). The earlier 3.20.3 pin was overly conservative.
+protobuf==5.26.1
+scikit-learn>=1.3
+pandas>=2.0
+matplotlib>=3.7
+seaborn>=0.12
+pyyaml>=6.0
+streamlit>=1.30
+tqdm>=4.66
+pytest>=7.4
+scipy>=1.11

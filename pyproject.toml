@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "afripara"
+version = "0.1.0"
+description = "Transformer-based semantic similarity and paraphrase detection for Yoruba, Igbo and Hausa (MSc research project)"
+readme = "README.md"
+requires-python = ">=3.10"
+# Heavy dependencies (torch, transformers, sentence-transformers, ...) are
+# pinned in requirements.txt and installed before the editable install.
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

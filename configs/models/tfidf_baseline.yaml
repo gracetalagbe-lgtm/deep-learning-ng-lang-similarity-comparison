@@ -1,0 +1,19 @@
+# Traditional baseline (brief requirement): TF-IDF + cosine similarity.
+model:
+  name: tfidf_baseline
+  architecture: traditional_baseline
+  license: n/a - project-implemented baseline (no third-party model)
+  vectorizer:
+    analyzer: word
+    ngram_range: [1, 2]
+    min_df: 1
+    sublinear_tf: true
+    lowercase: false        # diacritics are phonemic - never lowercase away
+    strip_diacritics: false # ablation only (E6)
+  scoring: cosine           # mapped to [0, 1] via (cos + 1) / 2 for the demo
+  threshold_tuning: validation   # decision threshold tuned on validation F1
+  role: traditional_baseline
+  notes: >
+    Serves as the lexical-overlap control: the gap between this baseline and
+    the transformers quantifies semantic understanding beyond word overlap
+    (the PAWS lesson - paraphrase models must beat lexical overlap).

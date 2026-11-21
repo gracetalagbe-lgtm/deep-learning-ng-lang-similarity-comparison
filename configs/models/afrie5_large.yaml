@@ -1,0 +1,25 @@
+# African-specialised embedding model (bi-encoder). Verified on HF Hub
+# 2026-11-18: McGill-NLP/AfriE5-Large-instruct (MIT).
+model:
+  name: afrie5_large
+  hf_repo: McGill-NLP/AfriE5-Large-instruct
+  architecture: bi_encoder
+  backbone: multilingual_e5_large    # XLM-R-large, 24 layers, 1024 hidden
+  params_millions: 560
+  embedding_dim: 1024
+  license: MIT
+  languages_covered: [eng, amh, om, ibo, yo, hau, swh, rw, xh, zul]   # per HF tags
+  tokenizer: sentencepiece_xlmr
+  max_seq_length: 512
+  citation: >
+    Uemura, Zhang & Adelani (2025), AfriMTEB and AfriE5: Benchmarking and
+    Adapting Text Embedding Models for African Languages.
+    arXiv:2510.23896 (EACL 2026).
+  role: embedding_track
+  notes: >
+    IMPORTANT: query:/passage: input prefixes are MANDATORY (training-time
+    requirement; performance degrades without them). For symmetric
+    similarity use the "query:" prefix on BOTH sentences. Contrastively
+    trained on NLLB-translated MNLI/SNLI with SSA-COMET quality filtering.
+    Fine-tuning is OPTIONAL (560M params - Colab budget dependent).
+training_overrides: {}

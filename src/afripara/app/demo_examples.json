@@ -1,0 +1,53 @@
+{
+  "Yoruba": {
+    "source_note": "constructed silver test pair (label inherited from PAWS via MT)",
+    "pairs": [
+      {
+        "sentence1": "Àwọn èèyàn mọ ibi tí ogun Chausa ti wáyé , níbi tí àwọn ọmọ ogun Humayun ti ṣẹ́gun ẹgbẹ́ ọmọ ogun Sher Shah Suri , ọba Moghul ní ọdún 1539 .",
+        "sentence2": "Àwọn èèyàn mọ ibi tí ogun Chausa ti wáyé , níbi tí àwọn ọmọ ogun Humayun ṣẹ́gun ẹgbẹ́ ọmọ ogun Sher Shah Suri , ọba Mughal ní ọdún 1539 .",
+        "gold": 1,
+        "score": 0.956
+      },
+      {
+        "sentence1": "Ó ń lọ sí àríwá ní òdìkejì ìlú Oblong , ó sì ń lọ sí Robinson .",
+        "sentence2": "Ó jìnnà sí ìlú Newton ní nǹkan bí kìlómítà méjì sí àríwá , ó sì ń lọ sí ìlà oòrùn , ó ń kọjá ní òṣùpá Oblong , ó sì ń lọ sí Robinson .",
+        "gold": 0,
+        "score": 0.158
+      }
+    ]
+  },
+  "Igbo": {
+    "source_note": "constructed silver test pair (label inherited from PAWS via MT)",
+    "pairs": [
+      {
+        "sentence1": "Ricci maara maka ibipụta mbipụta mbụ nke `` Codex Seraphinianus ' na ụfọdụ akwụkwọ nke Guido Crepax .",
+        "sentence2": "Ricci bụ onye a ma ama maka ibipụta mbipụta mbụ nke `` Codex Seraphinianus ' na ụfọdụ akwụkwọ Guido Crepax .",
+        "gold": 1,
+        "score": 0.876
+      },
+      {
+        "sentence1": "Osimiri Miletin ma ọ bụ Mitoc ma ọ bụ Nacu bụ akụkụ mmiri nke osimiri Scânteia na Romania .",
+        "sentence2": "Osimiri Scânteia ma ọ bụ Osimiri Mitoc ma ọ bụ Osimiri Nacu bụ akụkụ nke Osimiri Miletin na Romania .",
+        "gold": 0,
+        "score": 0.055
+      }
+    ]
+  },
+  "Hausa": {
+    "source_note": "SemRel2024-Hausa test pair (human-annotated 0-1 relatedness)",
+    "pairs": [
+      {
+        "sentence1": "Gina Jami’oi masu zaman kansu zai sa dalibai samun guraben Karatu – Sarkin Kano, Aminu Bayero",
+        "sentence2": "Sarkin Bayero yace gina irin wadannan jami’oi masu zaman kansu a jihar Kano zai taimakawa dalibai su samu guraben karatu bayan kammala makarantun sakandire.",
+        "gold": 1,
+        "score": 0.985
+      },
+      {
+        "sentence1": "Dike ya ce haramta yanka naman jakuna ba shi ne zai bunƙasa tattalin arzikin ƙasar nan ba.",
+        "sentence2": "“Maraɗi ba ta kai muhimmancin Kudu maso Gabas ga tattalin arzikin ƙasar nan ba.",
+        "gold": 0,
+        "score": 0.044
+      }
+    ]
+  }
+}

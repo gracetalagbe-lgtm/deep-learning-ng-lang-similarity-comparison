@@ -1,0 +1,25 @@
+# Embedding-track model (bi-encoder). Verified on HF Hub 2026-11-18.
+# One of only two sentence-embedding families with VERIFIED yo/ig/ha coverage
+# (LaBSE paper Table 10 lists ha, ig, yo).
+model:
+  name: labse
+  hf_repo: sentence-transformers/LaBSE
+  architecture: bi_encoder           # SentenceTransformer / BertModel + pooling
+  backbone: bert_large
+  params_millions: 471
+  embedding_dim: 768
+  license: Apache-2.0
+  languages_covered: 109 languages incl. [ha, ig, yo]   # verified, Table 10
+  tokenizer: wordpiece_bert
+  max_seq_length: 256
+  citation: >
+    Feng, Yang, Cer, Arivazhagan & Wang (2022), Language-agnostic BERT
+    Sentence Embedding (LaBSE), ACL 2022.
+    https://aclanthology.org/2022.acl-long.62/
+  role: embedding_track
+  notes: >
+    Evaluated zero-shot (cosine) and fine-tuned (contrastive/cosine loss)
+    in E2/E3/E4. SemRel2024 reports fine-tuned LaBSE reaching 0.69 Spearman
+    on Hausa STR - the strongest published zero/few-resource embedding
+    result for our languages.
+training_overrides: {}

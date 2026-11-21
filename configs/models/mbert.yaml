@@ -1,0 +1,26 @@
+# CONTROL MODEL - not a valid yo/ibo/hau baseline.
+# Verified against the canonical BERT multilingual list
+# (github.com/google-research/bert/blob/master/multilingual.md):
+# Yoruba IS included; Igbo and Hausa are NOT (absent from the 104-language
+# pretraining set). Any ig/hau result is a tokenisation/OOV control, not
+# evidence about semantic capability, and must be reported as such.
+model:
+  name: mbert
+  hf_repo: google-bert/bert-base-multilingual-cased
+  architecture: cross_encoder
+  backbone: bert_base_multilingual
+  params_millions: 178
+  embedding_dim: null
+  license: Apache-2.0
+  languages_covered: 104 Wikipedia languages incl. yor, EXCLUDING [ibo, hau]
+  tokenizer: wordpiece_bert_multilingual
+  max_seq_length: 128
+  citation: >
+    Devlin, Chang, Lee & Toutanova (2019), BERT: Pre-training of Deep
+    Bidirectional Transformers for Language Understanding, NAACL 2019.
+  role: negative_control
+  notes: >
+    Runs only in E2 (and Yoruba-only comparisons). Framing in every result
+    table: "mBERT has no Hausa/Igbo pretraining exposure; its scores
+    quantify out-of-vocabulary behaviour, not semantic competence."
+training_overrides: {}
